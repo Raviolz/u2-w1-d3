@@ -1,21 +1,43 @@
 nav {
-  border: 1px solid black;
   display: flex;
   background-color: #fbf7e3;
-  width: 80%;
+  width: 90%;
   border-radius: 2em;
+  height: 4em;
 }
 
 ul {
+  width: 100%;
   display: flex;
+  align-items: center;
   list-style-type: none;
+  padding: 0;
+  justify-content: space-evenly;
 }
 
 li button {
   background-color: #f3df85;
   border-radius: 2em;
+  border: none;
+  font-size: 0.5em;
+  color: #612406;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  padding: 0.5em 1em;
 }
 
 li img {
-  width: 2em;
+  width: 2.7em;
+}
+
+.shop button {
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5em;
+  padding: 1em 1.4em;
+  font-size: 0.8em;
+  width: 8em;
+  height: 3.3em;
 }
