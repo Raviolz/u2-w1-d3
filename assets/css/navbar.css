@@ -1,0 +1,21 @@
+nav {
+  border: 1px solid black;
+  display: flex;
+  background-color: #fbf7e3;
+  width: 80%;
+  border-radius: 2em;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+}
+
+li button {
+  background-color: #f3df85;
+  border-radius: 2em;
+}
+
+li img {
+  width: 2em;
+}
